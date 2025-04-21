@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Borojo Energy</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #34a853;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .producto {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .producto:hover {
+      transform: scale(1.05);
+    }
+
+    .producto img {
+      max-width: 100%;
+      border-radius: 10px;
+      height: 150px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    .contacto a {
+      color: #34a853;
+      text-decoration: none;
+    }
+
+    .whatsapp {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+ <header>
+  <img src="logo-borojo.png" alt="Logo Borojo Energy" style="max-height: 120px; margin-bottom: 10px;">
+  <h1>Borojo Energy</h1>
+  <p>Jugos naturales para recargar tu energía</p>
+</header>
+   
+
+  <section>
+    <h2>Nuestros Jugos</h2>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x150?text=Jugo+de+Borojó" alt="Jugo de Borojó">
+        <h3>Jugo de Borojó</h3>
+        <p>100% natural, ideal para revitalizar cuerpo y mente.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x150?text=Jugo+de+Mango" alt="Jugo de Mango">
+        <h3>Jugo de Mango</h3>
+        <p>Refrescante y delicioso, lleno de vitaminas.</p>
+      </div>
+      <div class="producto">
+        <img src="https://via.placeholder.com/300x150?text=Jugo+de+Guayaba" alt="Jugo de Guayaba">
+        <h3>Jugo de Guayaba</h3>
+        <p>Rico en vitamina C, perfecto para fortalecer defensas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Precios -->
+  <section>
+    <h2>Lista de Precios</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Tamaño</th>
+          <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Jugo de Borojó</td>
+          <td>Botella 500ml</td>
+          <td>$3.000</td>
+        </tr>
+        <tr>
+          <td>Jugo de Mango</td>
+          <td>Botella 500ml</td>
+          <td>$3.000</td>
+        </tr>
+        <tr>
+          <td>Jugo de Guayaba</td>
+          <td>Botella 500ml</td>
+          <td>$3.500</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+  <h2>Suplementos Naturales</h2>
+  <div class="productos">
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x150?text=Vitafer" alt="Vitafer">
+      <h3>Vitafer</h3>
+      <p>Suplemento vitamínico que fortalece tu energía y sistema inmunológico.</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x150?text=Erogan" alt="Erogan">
+      <h3>Erogan</h3>
+      <p>Suplemento natural para mejorar el rendimiento y bienestar masculino.</p>
+    </div>
+    <div class="producto">
+      <img src="https://via.placeholder.com/300x150?text=Toro" alt="Toro">
+      <h3>Toro</h3>
+      <p>Poderoso energizante natural para aumentar la vitalidad y resistencia física.</p>
+    </div>
+  </div>
+</section>
+
+  <section class="contacto">
+    <h2>Contacto</h2>
+    <p>Teléfono: <a href="tel:3226158147">3148131683</a></p>
+    <p>Email: <a href="mailto:contacto@borojoenergy.com">contacto@borojoenergy.com</a></p>
+    <p><a class="whatsapp" href="https://wa.me/573148131683" target="_blank">Chatea por WhatsApp</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Borojo Energy. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
